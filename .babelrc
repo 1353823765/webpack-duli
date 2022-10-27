@@ -1,0 +1,20 @@
+{
+  "presets": [
+    ["@babel/preset-env", { "useBuiltIns": "entry" ,"corejs": 2}],
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    ["@babel/plugin-proposal-decorators", { "legacy": true }],
+    [
+      "@babel/plugin-transform-runtime",
+      {
+        "absoluteRuntime": false,
+       
+        "helpers": true,
+        "regenerator": true,
+        "useESModules": false
+       
+      }
+    ]
+  ]
+}

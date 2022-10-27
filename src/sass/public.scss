@@ -1,0 +1,17 @@
+$value:200px;
+body{
+font-size:14px;
+font-family: 微软雅黑;
+color:#fff;
+}
+div#app{
+background: rgb(50, 4, 23);
+color:#fff;
+width: 400px;
+height: 400px;
+}
+div#app div{
+background: rgb(245, 86, 1);
+width:$value;
+height: $value;
+}
